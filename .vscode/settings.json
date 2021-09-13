@@ -1,0 +1,12 @@
+{
+  // selectively disable ESLint:
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,      // auto fix for all providers
+    "source.fixAll.eslint": true // configuration for ESLint only
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [ 
+    "javascript",
+    "javascriptreact"
+  ]
+}
